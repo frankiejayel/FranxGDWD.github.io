@@ -1,0 +1,15 @@
+h1 {
+    color: pink;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    border: 5px hotpink solid; }
+    
+    body {
+        background-image: url("https://previews.123rf.com/images/pk74/pk741311/pk74131100008/24019883-pink-cat-eyes-design-element-isolated-on-pale-background.jpg");
+        border: 5px hotpink solid;
+}
+#intro {
+    color: brown;
+}
