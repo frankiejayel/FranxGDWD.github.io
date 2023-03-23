@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+font-family: 'Delicious Handrawn', cursive;
+
+h1{ font-family: 'Delicious Handrawn', cursive;
+    text-align: center; }
+
+.header{ font-family: 'Delicious Handrawn', cursive;
+    text-align: center; font-size: larger; font-weight: 200; }
+
+.textbody{ font-family: 'Delicious Handrawn', cursive; padding: 50px;
+    text-align: center; }
+
+body{ font-family: 'Delicious Handrawn', cursive;
+    background-color: pink; padding: 50px; margin: 50px; }
+
+#bunnypic{
+    border: solid hotpink 5px; border-style: dotted;
+}
+
+#angrybunny{
+    border: solid hotpink 5px; border-style: dotted; float: right;
+}
+
+#happybunny{
+    border: solid hotpink 5px; border-style: dotted; float: right;
+}
+
+.header{
+    font-size: xx-large; background-color: hotpink; color: white; margin: 3px; font-weight: 200;
+}
+
+#copyright{
+    text-align: center;
+    margin: 250px;
+}
