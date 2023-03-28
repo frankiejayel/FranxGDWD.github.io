@@ -1,0 +1,32 @@
+body, ul{
+    margin: 0%;
+}
+
+ul li{
+    display: inline;
+}
+
+nav{
+    background-color: lightpink; padding: 20px; text-align: center;
+}
+
+ul{
+    padding-left: 0%;
+}
+
+li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+li a:hover{
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+h1{
+    font: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: center;
+}
