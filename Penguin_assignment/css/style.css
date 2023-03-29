@@ -1,10 +1,8 @@
 body{background-color: aqua; }
-p{ }
 h4{background-color: white; text-align: center;}
 h1{background-color: blue; color: white; text-align: center; padding: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; border: 10px dotted; }
 h3{background-color: white; text-align: center;}
 h2{background-color: white; text-align: center;}
-figure{ }
 nav a{text-decoration: none; }
 nav a:hover{ text-decoration: underline;}
 aside a{text-decoration: none; }
