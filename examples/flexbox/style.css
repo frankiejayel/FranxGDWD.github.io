@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex; 
+    background-color: hotpink;
+    height: 500px;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    justify-content: space space-evenly;
+}
+
+.item{
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    margin: 5px;
+}
+
+#item1{
+    flex-grow: 1;
+}
+
+#item3{
+    align-self: flex-end;
+}
