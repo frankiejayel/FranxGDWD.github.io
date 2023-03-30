@@ -8,7 +8,7 @@ ul{
     padding-left: 0%;
     justify-content: space-evenly;
     align-items: center;
-    height: 50px;
+    height: 5vh;
     gap: 20px;
     padding: 20px;
 }
@@ -19,4 +19,17 @@ nav{
 
 #home{
     margin-right: auto;
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        height: 10vh;
+
+    }
+
+    #home{
+        margin-right: 0%;
+    }
 }
