@@ -34,39 +34,3 @@ ul li a:hover{
     letter-spacing: 2px;
     font-style: oblique;
     font-weight: 600;}
-
-.imgs{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10%;}
-
-.info a{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
-    color: black;
-}
-
-.info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.info a:hover{
-    letter-spacing: 2px;
-    font-style: oblique;
-    color: hotpink;
-
-}
-
-.imgs img{
-    width: 300px;
-}
-
-#axtualhead { 
-background-image: url("./Assets/header.jpg");
-height: 50vh;
-background-size: cover;
-background-position: center;
-
-}
