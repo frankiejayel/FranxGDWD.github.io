@@ -34,3 +34,21 @@ ul li a:hover{
     letter-spacing: 2px;
     font-style: oblique;
     font-weight: 600;}
+
+.imgs img{
+    width: 30%;}
+
+h1{
+    letter-spacing: 2px;
+    color: hotpink;}      
+
+@media only screen and (max-width: 768px){
+    .imgs img{
+        width: 45%;
+        height: 35vh;
+    }
+    ul{
+        flex-direction: column;}
+    .imgs{
+        flex-direction: column;
+        width: 65vh;}}

@@ -31,5 +31,9 @@ nav{
 
     #home{
         margin-right: 0%;
+    }}
+    
+.imgs img{
+        width: 30%;
     }
-}              
+    
