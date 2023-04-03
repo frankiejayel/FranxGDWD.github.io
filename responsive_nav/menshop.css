@@ -1,10 +1,12 @@
 ul{
     display: flex;
     padding-left: 0%;
-    justify-content: space-between;}
+    justify-content: space-between;
+    margin: 0%;}
 
 li{
-    list-style: none;}
+    list-style: none;
+    margin: 0%;}
 
 .dropdown-menu{
     background-color: rgb(255, 193, 225);
@@ -21,7 +23,9 @@ li{
 
 nav{
     background-color: hotpink;
-    padding: 20px;}
+    padding: 20px;
+    position: sticky;
+    top: 0%;}
 
 ul li a{
     text-decoration: none;
@@ -39,13 +43,14 @@ h1{
         letter-spacing: 2px;
         color: hotpink;}
 
-    .imgs img{
-        width: 30%;}
+.imgs img{
+        width: 30%;
+        height: 30vh;}
 
 @media only screen and (max-width: 768px){
     .imgs img{
-        width: 35%;
-        height: 35vh;}
+        width: 100%;
+        height: 85vh;}
     ul{
         flex-direction: column;}
     .imgs{
