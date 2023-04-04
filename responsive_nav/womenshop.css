@@ -40,13 +40,13 @@ ul li a:hover{
     font-weight: 600;}
 
 .imgs img{
-        width: 30%;
+        width: 10%;
         height: 30vh;}
 
 h1{
     letter-spacing: 2px;
     color: hotpink;
-    text-align: center;}
+text-align: center;}
 
 @media only screen and (max-width: 768px){
     .imgs img{
