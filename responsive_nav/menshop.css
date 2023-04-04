@@ -41,7 +41,8 @@ ul li a:hover{
 
 h1{
         letter-spacing: 2px;
-        color: hotpink;}
+        color: hotpink;
+        text-align: center;}
 
 .imgs img{
         width: 30%;

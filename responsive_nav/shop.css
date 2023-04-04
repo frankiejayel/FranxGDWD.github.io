@@ -39,22 +39,41 @@ ul li a:hover{
     font-style: oblique;
     font-weight: 600;}
 
-.imgs img{
-        width: 30%;
-        height: 30vh;}
-
 h1{
     letter-spacing: 2px;
     color: hotpink;
     text-align: center;}
+    
+
+    .info a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;}
+
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;}
+    
+.info a:hover{
+    letter-spacing: 2px;
+    font-style: oblique;
+    color: hotpink;}
+
+
+.imgs img{
+    width: 30%;
+    height: 30vh;}
 
 @media only screen and (max-width: 768px){
     .imgs img{
-        width: 100%; 
-        height: 85vh;
-    }
+        width: 100%;
+        height: 85vh;}
     ul{
         flex-direction: column;}
     .imgs{
         flex-direction: column;
         width: 65vh;}}
+
