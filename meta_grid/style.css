@@ -23,10 +23,10 @@ ul li a{
     text-decoration: none;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    
-}
+    }
 ul li{
-    padding: 5%;
+    padding: 30px;
+    justify-content: center;
 }
 
 ul li a:hover{
