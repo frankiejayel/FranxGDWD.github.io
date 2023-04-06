@@ -7,19 +7,28 @@ main{
     grid-template-areas:
     "navArea headerArea headerArea"
     "navArea contentArea contentArea"
-    "navArea footerArea footerArea"
+    "navArea contentArea contentArea"
     ;}
 
 body{
     margin: 0%;
 }
 
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
 ul li a{
     text-decoration: none;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
+    
 }
+ul li{
+    padding: 5%;
+}
+
 ul li a:hover{
     letter-spacing: 2px;
 }
@@ -69,7 +78,7 @@ footer{
 @media screen and (max-width:768px){
     main{
         grid-template-columns: 100%;
-        grid-template-rows: 15% 5% 75% 5%;
+        grid-template-rows: 15% 10% 75%;
         grid-template-areas:
         "headerArea"
         "navArea"
@@ -85,5 +94,5 @@ footer{
             height: auto;
         }
     h1{font-size: 4rem;}
-
+ul { flex-direction: row;}
 }
