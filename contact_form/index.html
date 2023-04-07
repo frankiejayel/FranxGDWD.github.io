@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <main>
+            <form>
+                <h2>Contact us</h2>
+                <p>Got a question? We'd love to hear from you. Send us message and<div id="lineBreak">we'll respond as soon as possible</div></p>
+                <fieldset>
+                    <p id="what">What can we help you with?</p>
+                        <input type="text" name="infoBar" placeholder="Select what we can help you with">
+                        <select name="infoBar" id="dropdown"></select>
+                    <br>
+                        <!-- name -->
+                        <label for="infoBar">Name</label>
+                        <fieldset></fieldset>
+                    <br>
+                        <!-- info -->
+                        <label for="infoBar">Email</label>
+                        <fieldset></fieldset>
+                    <br>
+                        <!-- message -->
+                        <label for="infoBar">Message</label><br>
+                        <textarea name="message" id="message" cols="70" rows="10"></textarea>
+                    <br>
+                        <!-- send button -->
+                        <button type="send" value="button">Send</button>
+                            
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
