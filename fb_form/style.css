@@ -30,6 +30,85 @@ main {
     color: #444;
 }
 
+h2, p{
+    text-align: center;
+}
+
+input{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#name-inputs{
+    display: flex;
+    justify-content: center;
+}
+
+#name-inputs input{
+    width: 40%;
+}
+
+#emailPassword{
+    display: flex;
+    flex-direction: column;
+}
+
+#emailPassword input{
+    width: 89%;
+}
+
+select{
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#selects, #radio-btns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 25%;
+}
+
+.radio label{
+    font-size: smaller;
+}
+
+#btn{
+    border: none;
+    background-color: rgb(41, 162, 41);
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;  
+}
+
+#signup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+input:valid{
+    border: 2px green solid;
+}
+
+input:invalid{
+    border: 2px red solid;
+}
+
 .link{
     text-decoration: none;
 }
