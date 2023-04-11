@@ -14,44 +14,41 @@
                 <p id="words">Got a question? We'd love to hear from you.<div id="words">Send us message and we'll respond as soon as possible.</div></p>
                 <fieldset id="border">
                     <label for="help" id="what">What can I help you with?</label>
-                    <br><br>
+<br><br>
                     <select name="help" id="help">
-                        <option value="select what we can help you with">select what can we help you with</option>
+                        <option value="select what we can help you with">--select what can we help you with--</option>
+                        <option value="forgot password">Forgot Password</option>
+                        <option value="Can't Log In">Can't Log In</option>
                     </select>
-                    <br><br>
-                        <select name="infoBar" id="month">
+<br><br>
+                        <select name="infoBar" id="month" required>
                             <option value="">April</option>
                             <option value="">April</option>
                         </select>
-                        <select name="infoBar" id="day">
+                        <select name="infoBar" id="day" required>
                             <option value="">18</option>
                             <option value="">18</option>
                         </select>
-                        <select name="infoBar" id="year">
+                        <select name="infoBar" id="year" required>
                             <option value="">1997</option>
                             <option value="">1997</option>
                         </select>
-                    
-                    
-                    
-                    
-                    
-                        <br><br>
+<br><br>
                         <!-- name -->
                         <label for="name">Name</label>
-                        <input name="name" type="text">
-                    <br><br>
+                        <input name="name" type="text" required minlength="5" id="name">
+<br><br>
                         <!-- info -->
                         <label for="email">Email</label>
-                        <input name="email" type="text">
-                    <br><br>
+                        <input name="email" type="text" required minlength="10" id="email">
+<br><br>
                         <!-- message -->
                         <label for="infoBar">Message</label>
                         <br>
-                        <textarea name="message" id="message" cols="70" rows="10"></textarea>
-                    <br>
+                        <textarea name="message" id="message" cols="70" rows="10" required minlength="150"></textarea>
+<br>
                         <!-- send button -->
-                        <button type="send" value="button">Send</button>
+                        <button type="send" value="button" id="send">Send</button>
                             
                 </fieldset>
             </form>

@@ -5,3 +5,17 @@ h2, p, #words{
 #border{
     text-align: center;
 }
+
+#send{
+    padding: 10px;
+    margin: 2px;
+
+}
+
+input:valid{
+    border: 2px green solid;
+}
+
+input:invalid{
+    border: 2px red solid;
+}
