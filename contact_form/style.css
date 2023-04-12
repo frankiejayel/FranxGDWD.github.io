@@ -9,7 +9,6 @@ h2, p, #words{
 #send{
     padding: 10px;
     margin: 2px;
-
 }
 
 input:valid{
@@ -18,4 +17,77 @@ input:valid{
 
 input:invalid{
     border: 2px red solid;
+}
+
+form{
+    border: solid hotpink 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgb(252, 158, 207);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#what, #help{
+    text-align: center;
+}
+
+.birthday{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.birthday select{
+    width: 7%;
+    margin: 0 1%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#name, #email{
+    display: flex;
+    margin-left: 21%;
+    margin-right: 20%;
+    justify-content: center;
+    padding: 10px;
+    width: 60%;
+}
+
+#send{
+    width: 20%;
+    margin-bottom: 5%;
+    background-color: hotpink;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    border-radius: 70%;
+}
+
+#help{
+    width: 35%;
+    margin-left: 33%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#message{
+    width: 70%;
+    text-align: center;
+}
+
+#message:invalid{
+    border: 2px red solid;
+}
+
+#message:valid{
+    border: 2px green solid;
+}
+
+hr{
+    width: 80%;
+    border-color: hotpink;
+}
+
+.texts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
