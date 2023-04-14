@@ -119,6 +119,38 @@ main {
   padding: 25px 15%;
 }
 
+.img-container{
+  height: 50vh;
+  
+}
+
+img{
+  height: 100%;
+  border: solid hotpink 3px;
+}
+
+.btn-btn-primary{
+  background-color: hotpink;
+  border-radius: 60%;
+  border: hotpink solid;
+  font-family: "Bebas Neue"; 
+  font-style: italic;
+  height: 250px;
+  width: 250px;
+  margin-left: 40%;
+  margin-right: 20%;
+  font-size: xx-large;
+}
+
+.btn-btn-primary:hover{
+  letter-spacing: 4px;
+  font-weight: bolder;
+  background-color: rgb(65, 255, 208);
+  color: rgb(251, 4, 127);
+  text-decoration: underline;
+  border: solid 9px;
+}
+
 /* contents: */
 
 .content {
