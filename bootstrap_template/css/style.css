@@ -151,6 +151,12 @@ img{
   border: solid 9px;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-image:url("../assets/branding/arrows.png");
+  background-color: white;
+
+}
+
 /* contents: */
 
 .content {
