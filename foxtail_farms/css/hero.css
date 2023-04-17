@@ -1,0 +1,25 @@
+.site-hero{
+    height: 80vh;
+    background-image:url("../assets/branding/foxfields.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    color: aliceblue;
+    font-family: "Bebas Neue";
+    font-style: italic;
+    text-align: center;
+}
+
+.hero-text h1{
+    font-size: 5em;
+}
+
+.hero-text h3{
+    font-size: 3em;
+}
+
