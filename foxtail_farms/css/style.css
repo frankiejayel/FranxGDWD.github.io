@@ -170,9 +170,11 @@ hr{
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
-  background-image:url("../assets/branding/arrows.png");
-  background-color: white;
+  background-image:url("../assets/branding/exchange.png");
+}
 
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover{
+  transform: scale(2);
 }
 
 /* contents: */
