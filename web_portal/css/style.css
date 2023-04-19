@@ -1,0 +1,57 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-image: url(https://images.pexels.com/photos/1687944/pexels-photo-1687944.jpeg?auto=compress&cs=tinysrgb&w=1600);}
+    
+    #content {color: palevioletred;
+    background-color: white; 
+    padding: 100px;
+    border: solid hotpink 10px;}
+
+    #main {
+        background-color: palevioletred;
+        color: white;
+        padding: 30px ;
+        text-align: center;
+        border: hotpink solid 10px;
+        margin: 100px;}
+h1, h5{
+    background-color:#ff72ab;
+    margin: 0%;
+    box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
+}
+
+  /* contents: */
+  
+  .content {
+    background-color: #ff72ab;
+    border:2px solid #000000;
+    padding:15px;
+    color:#ffffff;
+    box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
+    margin:50px 0px;
+  }
+  .content-header {
+    font-size: 42pt;
+    font-family: 'Lobster', cursive;
+    margin:0;
+    text-align: center;
+    padding:25px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .content-subhead {
+    border-bottom: 1px solid #ffffff;
+    margin:0;
+    text-align: center;
+    margin-bottom:25px;
+    padding-bottom:25px;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-style: italic;
+  }
+  .content-content {
+    padding:20px;
+  }
