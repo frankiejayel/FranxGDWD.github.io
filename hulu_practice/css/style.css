@@ -1,28 +1,116 @@
-.site-hero{
-    height: 80vh;
-    background-image:url("/hulu_practice/assets/images/hulu-bg.jpeg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body{
+    margin: 0%;
 }
 
-.hero-text{
-    color: aliceblue;
-    font-family: "Bebas Neue";
-    font-style: italic;
+
+/* FONT */
+@font-face{ 
+    font-family: GraphikBold;
+    src: url("../assets/Graphik-Font-Famaily/")}
+    #bundle h5{
+        color: #1ce783;
+    }
+    #trio-bundle h5{
+        color: #1ce783;
+    }
+
+
+/* HEADER */
+header{
+    background-image: url("../assets/images/hulu-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 50vh;
+    align-self: center;
+}
+
+
+/* BUNDLE */
+#bundle{
+    align-self: center;
     text-align: center;
 }
-
-.hero-text h1{
-    font-size: 5em;
+#bundle img{
+  height: 10vh;
+  align-self: center;
 }
 
-.hero-text h3{
-    font-size: 3em;
-}
-.cards{
+
+/* BANNER */
+#banner{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: auto;
+}
+#banner img{
+    height: 5vh;
+    align-self: center;
+}
+
+
+
+/* NAVIGATION STYLING */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    width: 75px;
+    align-self: center;
+}
+
+nav button{
+    border: none;
+    color: #a8afbd;
+    background: none;
+
+}
+nav button:hover{
+    border: none;
+    color: #a8afbd;
+    background: #7f8490;
     
 }
+
+
+/* MAIN COLOR*/
+main{
+    background-color: #0b0c0f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+main h5{
+    margin: 0%;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+
+
+/* IMAGES */
+#gallery img{
+    height: 30vh;
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 768px){
+    #gallery{grid-template-columns: 1fr 1fr;}
+}
+
