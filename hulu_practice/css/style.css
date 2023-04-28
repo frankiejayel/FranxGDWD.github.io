@@ -77,8 +77,8 @@ nav button{
 nav button:hover{
     border: none;
     color: #a8afbd;
-    background: #7f8490;
-    
+    background: #7a7f89;
+    border-radius: 7%
 }
 
 .link{
