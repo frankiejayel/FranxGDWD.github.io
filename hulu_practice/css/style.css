@@ -1,3 +1,6 @@
+*{src: url("../assets/Graphik-Font-Family/GraphikRegular.otf")}
+
+
 body{
     margin: 0%;
 }
@@ -6,7 +9,7 @@ body{
 /* FONT */
 @font-face{ 
     font-family: GraphikBold;
-    src: url("../assets/Graphik-Font-Famaily/")}
+    src: url("../assets/Graphik-Font-Family/GraphikRegular.otf")}
     #bundle h5{
         color: #1ce783;
     }
@@ -17,7 +20,6 @@ body{
 
 /* HEADER */
 header{
-    background-image: url("../assets/images/hulu-bg.jpeg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -25,6 +27,8 @@ header{
     color: white;
     height: 50vh;
     align-self: center;
+    background:radial-gradient(rgba(255, 255, 255, 0.104), rgba(0, 0, 0, 0.753)), url("../assets/images/hulu-bg.jpeg");
+    
 }
 
 
