@@ -1,0 +1,114 @@
+*{
+   src: url("../Assets/avenir_ff/AvenirLTStd-Black.otf") 
+}
+Body{
+    background:radial-gradient(rgba(255, 255, 255, 0.104), rgba(13, 13, 13, 0.753)), url("../Assets/disney+bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 60vh;
+    align-self: center;
+    background-repeat: no-repeat;
+}
+
+#hero, p, h5{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+#getThemBoth, #getAllThree, #login{
+    background-color: #0063e5;
+    border-radius: 6%;
+    height: 5vh;
+    width: 13vh;
+}
+
+p{
+    color: white;
+    padding: 10%;
+}
+
+.text, .link{
+    color: white;
+}
+
+#huluDisney, #huluDisneyEspn{
+    height: 8vh;
+    width: 36vh;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#disneyLogo{
+    height: 6vh;
+    display: flex;
+    justify-content: left;
+}
+
+#view{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.imgs{
+    height: 20vh;
+    width: 30vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    padding: 1%;
+    
+}
+
+main{
+    background-color: #040714;
+    background-size: cover;
+}
+
+footer, html{
+    background-color: #040714;
+}
+
+.firstRow, .secondRow,{
+    display: flex;
+    justify-content: center;
+}
+
+.firstRow, .secondRow{
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+#footerimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 5vh;
+    width: 9vh;
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 768px){
+    #gallery{grid-template-columns: 1fr 1fr;}
+}
